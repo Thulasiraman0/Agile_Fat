@@ -9,7 +9,7 @@ pipeline {
 
   environment {
     // CHANGE THESE
-    DOCKERHUB_USER = 'YOUR_DOCKERHUB_USERNAME'
+    DOCKERHUB_USER = 'thulasiram0'
     IMAGE_NAME     = 'ecommerce-oms'
     IMAGE_TAG      = "${env.BUILD_NUMBER}"
     FULL_IMAGE     = "${DOCKERHUB_USER}/${IMAGE_NAME}:${IMAGE_TAG}"
